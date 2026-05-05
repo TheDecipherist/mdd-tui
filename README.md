@@ -1,6 +1,6 @@
 # mdd-tui
 
-A terminal dashboard for [MDD (Manual-First Development)](https://github.com/TheDecipherist/claude-code-mastery-project-starter-kit) projects created by the starter kit.
+A terminal dashboard for [MDD (Manual-Driven Development)](https://github.com/TheDecipherist/claude-code-mastery-project-starter-kit) projects created by the starter kit.
 
 Reads your `.mdd/` directory and renders a live, navigable TUI showing doc health, drift status, audit reports, and full markdown content — without leaving the terminal.
 
@@ -78,7 +78,7 @@ mdd dashboard
 
 ## What is MDD?
 
-MDD (Manual-First Development) is a documentation-first workflow for building features with AI coding assistants. Every feature starts with a `.mdd/docs/*.md` file that defines architecture, API, data model, and business rules before any code is written.
+MDD (Manual-Driven Development) is a documentation-driven workflow for building features with AI coding assistants. The manual isn't just a starting point — it drives the entire development lifecycle. Every feature, change, and decision is anchored to a `.mdd/docs/*.md` file that defines architecture, API, data model, and business rules. That document stays authoritative from first design through final implementation: code must match the manual, not the other way around.
 
 `mdd-tui` is the companion dashboard — run it alongside your editor to track doc health across the project.
 
