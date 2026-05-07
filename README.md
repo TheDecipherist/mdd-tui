@@ -1,6 +1,6 @@
 # mdd-tui
 
-A terminal dashboard for [MDD (Manual-Driven Development)](https://github.com/TheDecipherist/claude-code-mastery-project-starter-kit) projects created by the starter kit.
+A terminal dashboard for [MDD (Manual-Driven Development)](https://github.com/TheDecipherist/mdd) projects.
 
 Reads your `.mdd/` directory and renders a live, navigable TUI showing doc health, drift status, audit reports, and full markdown content — without leaving the terminal.
 
@@ -19,7 +19,7 @@ npm install -g mdd-tui
 Run from any project directory that has a `.mdd/` folder:
 
 ```bash
-mdd dashboard
+mdd-tui
 ```
 
 ---
